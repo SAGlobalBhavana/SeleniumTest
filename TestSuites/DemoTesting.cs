@@ -19,7 +19,7 @@ namespace HybridFramework.TestSuites
 
         [ClassInitialize]
 
-        // login 
+        // login details code
         public static void LoginFO(TestContext testContext)
         {
             FO_LoginPage.loginFO(FO_URL,FO_Username,FO_Password);
